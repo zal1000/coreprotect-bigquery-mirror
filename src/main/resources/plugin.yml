@@ -1,4 +1,4 @@
 name: cobigquery
-version: "1.0-SNAPSHOT"
-author: Your Name
+version: "0.0.1"
+author: zal1000
 main: com.zal1000.cobigquery.MyPlugin
