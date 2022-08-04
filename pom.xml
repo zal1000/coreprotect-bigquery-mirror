@@ -10,6 +10,17 @@
     <groupId>com.zal1000.cobigquery</groupId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.google.cloud</groupId>
+                <artifactId>libraries-bom</artifactId>
+                <version>26.0.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <!-- Repositories -->
     <repositories>
         <repository>
@@ -53,6 +64,10 @@
             <artifactId>worldedit-core</artifactId>
             <version>7.2.0-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-bigquery</artifactId>
         </dependency>
     </dependencies>
 
